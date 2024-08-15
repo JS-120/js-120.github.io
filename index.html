@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃばScript</title>
+    <link rel="shortcut icon" href="./image/logo.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div>
+        <a onclick="home()" style="cursor: pointer;">
+          <img width="50" height="50" src="./image/logo.png" alt="Logo">
+        </a>
+      </div>
+      <div>
+        <a class="header-link" onclick="tool()">ツール</a>
+        <a class="header-link" onclick="blog()">ブログ</a>
+        <a class="discord" href="https://discord.gg/ED8CfAzQ2f" target="_blank">Discord</a>
+        <a class="contact" href="https://discord.gg/ED8CfAzQ2f" target="_blank">お問い合わせ</a>
+      </div>
+    </header>
+    <main>
+      <div id="home" style="display: none;">
+        <h1 class="welcome">ようこそ</h1>
+      </div>
+      <div id="tool" style="display: none;">
+        <h1 class="tool-title">ツール</h1>
+        <h2 class="tool-title">ここではwebで使えるツールを配布します</h2>
+      </div>
+      <div id="blog" style="display: none;">
+        <h1 class="blog-title">ブログ</h1>
+        <h2 class="blog-title">そのうちどんどん書いていきます</h2>
+      </div>
+    </main>
+    <footer>
+      <p>&copy;2024 じゃばScript</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
