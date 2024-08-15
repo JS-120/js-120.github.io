@@ -16,7 +16,8 @@ function tool() {
   homeElement.style.display = "none";
   toolElement.style.display = "block";
   blogElement.style.display = "none";
-}function blog() {
+}
+function blog() {
   homeElement.style.display = "none";
   toolElement.style.display = "none";
   blogElement.style.display = "block";
